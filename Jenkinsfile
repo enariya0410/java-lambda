@@ -118,7 +118,7 @@ pipeline {
       }
     }
 }
-
+/*
 def does_lambda_exist(String name) {	
   isexist=false
   echo $name
@@ -131,4 +131,4 @@ def does_lambda_exist(String name) {
     isexist=true
   }
   return isexist
-}
+}*/
