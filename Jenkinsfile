@@ -60,7 +60,7 @@ pipeline {
                     sh "set -x aws s3 cp target/${JARNAME} s3://bermtech291/lambda-test/"
 
 
-                    sh "set -x aws lambda update-function-code --function-name test  --zip-file fileb://target/${JARNAME}"
+                    sh "set -x aws lambda update-function-code --function-name lambda-test  --zip-file fileb://target/${JARNAME}"
 
                 }          
             }
