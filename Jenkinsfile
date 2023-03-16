@@ -94,7 +94,7 @@ pipeline {
                         sh "aws s3 cp target/${JARNAME} s3://bermtech291/lambda-prod/"
                         //  sh './deploy-test.sh $AWS_ACCESS_KEY $AWS_SECRET_KEY'
                         // if (does_lambda_exist('prodfunction')) {
-                            sh "aws lambda update-function-code --function-name lambda-prod --s3-bucket bermtec291 --s3-key lambda-prod/${JARNAME}"
+                            sh "aws lambda update-function-code --function-name lambda-prod --s3-bucket bermtech291 --s3-key lambda-prod/${JARNAME}"
                         //}  
                     }
                 }
